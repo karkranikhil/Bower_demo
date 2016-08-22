@@ -25,7 +25,7 @@ I will demonstrate a demo which shows the steps for fetching Bootstrap and Angul
 #Step 1: Installing Bower
 Install Bower as a global node module. To do this, type the following at command prompt:
 ```sh
-### npm install –g bower
+ npm install –g bower
 ```
 Note: use sudo on Mac or Linux
  
@@ -33,27 +33,40 @@ Note: use sudo on Mac or Linux
 Create and Initialize a bower.json file by typing the following at the command prompt:
 
 ```sh
-### bower init
+ bower init
 ```
 Bower will ask Several questions which you should answer as follows:
+
 name : bower_demo
+
 description : bower demo for kshop
+
 main file : index.html
+
 keywords: bower, demo, kshop, bootstrap, angular
+
 authors: Nikhil karkra
+
 license: MIT
+
 say yes or press enter to the remaining questions
+
 hompage
+
 set currently install components as dependencies?  Yes
+
 add commonly ignored files to ignore list ? Yes
+
 would you like to mark this package as private which prevents it from being accidentally published to the registry?  Yes
+
 Looks good?  Yes
+
  
 After this command you will get your bower.json file  in your current directory .
-Now our current Directory c:\Nikhil_Karkra containing two files
-1)	Index.html
-2)	Bower.json
-Our bower.json will look like as below
+* Now our current Directory c:\Nikhil_Karkra containing two files
+ 1)	Index.html
+  2)	Bower.json
+* Our bower.json will look like as below
 
 ```sh
 {
@@ -90,8 +103,8 @@ We will first install Bootstrap using Bower. To do this type the following at th
 
 ```sh
 
-* bower install <package name>  -S
-* bower install bootstrap  -S
+ bower install <package name>  -S
+ bower install bootstrap  -S
 
 
 ```
@@ -101,7 +114,7 @@ We will first install Bootstrap using Bower. To do this type the following at th
 Next we will install angular using Bower. To do this type the following at the command prompt:
 ```sh
 
-* bower install angular -S
+ bower install angular -S
 
 ```
  
